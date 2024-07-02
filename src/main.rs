@@ -1,5 +1,3 @@
-extern crate rand;
-
 use rand::Rng;
 
 fn main() {
@@ -21,4 +19,10 @@ fn main() {
     }
 
     println!("Heads: {}, Tails: {}", heads, tails);
+
+    if heads > tails {
+        println!("You won!");
+    } else {
+        println!("You lost!");
+    }
 }
