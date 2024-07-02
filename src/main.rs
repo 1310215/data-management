@@ -28,9 +28,11 @@ fn main() {
 
     println!("Heads: {}, Tails: {}", heads, tails);
 
+    print!("{}",user_name);
+
     if heads > tails {
-        println!("You won!");
+        println!(" won!");
     } else {
-        println!("You lost!");
+        println!(" lost!");
     }
 }
